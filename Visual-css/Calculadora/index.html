@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--EN ESTE ENCABEZADO SE ESTAN LLAMANDO LAS FUNCIONES DE JS Y SE AGREGO LA HOJA DE ESTILOS-->
+    <link rel="stylesheet" href="stilos.css">
+    <script type="text/javaScript" src="suma.js"></script>
+    <script type="text/javaScript" src="resta.js"></script>
+    <script type="text/javaScript" src="multiplicacion.js"></script>
+    <script type="text/javaScript" src="division.js"></script>
+    <script type="text/javaScript" src="modulo.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+<!--ESTE BODY CLASS TEXT CONTIENE LA IMAGEN DE FONDO -->
+<body class="fondo">
+<body>
+    <center>
+        <h1>SUMA, RESTA, MULTIPLICACION, DIVISION</h1>
+    <Form name="Form1">
+        <!--ESTE FORM CONTIENE LA PARTE DE LA SUMA DE LA CALCULADORA-->
+        <input type="text" name="numero1" size="10">
+        <input type="text" name="numero2" size="10">
+        <input type="text" name="resultado" size="10">
+        <input type="button" value="SUMA" onclick="suma()">
+    </form>
+
+    <Form name="Form2">
+        <!--ESTE FORM CONTIENE LA PARTE DE LA RESTA DE LA CALCULADORA-->
+        <input type="text" name="num1" size="10">
+        <input type="text" name="num2" size="10">
+        <input type="text" name="resul" size="10">
+        <input type="button" value="RESTA" onclick="resta()">
+    </form>
+
+<Form name="Form3">
+    <!--ESTE FORM CONTIENE LA PARTE DE LA MULTIPLICACION DE LA CALCULADORA-->
+        <input type="text" name="m1" size="10">
+        <input type="text" name="m2" size="10">
+        <input type="text" name="resultado" size="10">
+        <input type="button" value="MULTIPLICACION" onclick="multiplicacion()">
+
+    </form>
+    <Form name="Form4">
+        <!--ESTE FORM CONTIENE LA PARTE DE LA DIVISION DE LA CALCULADORA-->
+        <input type="text" name="r1" size="10">
+        <input type="text" name="r2" size="10">
+        <input type="text" name="resultado" size="10">
+        <input type="button" value="DIVISION" onclick="division()">
+    </form>
+    <Form name="Form5">
+        <!--ESTE FORM CONTIENE LA PARTE DE LA MODULO DE LA CALCULADORA-->
+        <input type="text" name="md1" size="10">
+        <input type="text" name="md2" size="10">
+        <input type="text" name="resultado" size="10">
+        <input type="button" value="MODULO" onclick="modulo()">
+    </form>
+</center >   
+</body>
+</html>

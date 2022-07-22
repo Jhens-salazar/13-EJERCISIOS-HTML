@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1{
+    /* Se utilizo para modificar la etiqueta h1*/
+    background-color: black;
+    color: aliceblue;
+    font-family: cursive;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 1cm;  
+}
+header{
+    /* Se utilizo para modificar la etiqueta header*/
+   background: blue;
+   width: 100%;
+   clear: both;
+   content:'';
+   display: table;
+}
+img{
+     /* Se utilizo para agregar una imagen*/
+    width:130px;
+    height: 100px;
+}
+  /* Se utilizo para agregar STILOS A LA BARRA DE NAVEGACION*/
+.navegacion{
+    width: 1200px;
+    margin: 30px auto;
+    background: blue;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li {
+    position:relative;
+    display: inline-block;
+}
+.menu >li >a{
+    display: block;
+    padding: 15px 20px;
+    color:black;
+    font-family: cursive;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: aliceblue;
+    transition: all .3s;
+}
+.submenu{
+      /* Se utilizo para agregar STILOS A LA BARRA DEL SUBMENU*/
+    position: absolute;
+    background-color: green;
+    width: 300%;
+    visibility:hidden;
+    transition: opacity 1.5s;
+}
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: aliceblue;
+    font-family: cursive;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.texto{
+     /* Se utilizo para modificar el  texto */
+    color:aliceblue;
+    font-family: cursive;
+}
+.nods{
+     /* Se utilizo para poner una imagen de fondo*/
+    background-image: url("/imagenes/Diseño\ sin\ título.png");
+}
+h2{
+     /* Se utilizo para modificar la etiqueta h2*/
+    color: aliceblue;
+    font-family: cursive;
+}
+p{
+     /* Se utilizo para modificar la etiqueta p*/
+    color: aliceblue;
+    font-family: cursive;
+}

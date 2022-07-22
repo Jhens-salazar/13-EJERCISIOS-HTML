@@ -1,0 +1,25 @@
+h1{
+     /* Se utilizo para modificar la etiqueta h1*/
+    background-color: blue;
+    color: azure;
+    font-family: cursive;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    padding-top: 1cm;
+}
+
+img{
+     /* Se utilizo para agregar una imagen dentro de la tabla*/
+    width: 450px;
+    height: 400px;
+}
+td{
+     /* Se utilizo para modificar la etiqueta td*/
+    background-color: black;
+    color: aliceblue;
+    font-family: cursive;
+}
+.imagenfon{
+     /* Se utilizo para poner la imagen de fondo*/
+    background-image: url("/imagenes/software-1.jpg");
+}

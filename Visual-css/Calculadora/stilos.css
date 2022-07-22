@@ -1,0 +1,12 @@
+h1{
+    /* Se utilizo para modificar la etiqueta H1*/
+    background-color: black;
+    color: aliceblue;
+    padding: 1cm;
+    margin-bottom: 0ch;
+    margin-top: 0ch;
+}
+.fondo{
+    /* Se utilizo para agregar la imagen de fondo*/
+    background-image: url("/imagenes/homer2.jpg");
+}

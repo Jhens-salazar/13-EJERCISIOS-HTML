@@ -1,0 +1,17 @@
+h1{
+    background-color: crimson;
+    margin:none;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 1cm;
+}
+.fondo{
+    background-image: url(/imagenes/tabla.png);
+}
+#complemento{
+    font-family: cursive;
+    margin-left: 30%;
+}
+#resultado{
+    margin-left: 20%;
+}

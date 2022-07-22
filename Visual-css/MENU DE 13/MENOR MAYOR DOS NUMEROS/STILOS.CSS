@@ -1,0 +1,12 @@
+h1{
+    background-color: blue;
+    margin: 1cm;
+    font-family: cursive;
+    margin: 0%;
+}
+.fondo{
+    background-image: url(/imagenes/ANDROID.PNG);
+}
+#complemento{
+    margin-left: 35%;
+}

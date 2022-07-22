@@ -1,0 +1,13 @@
+h1{
+   background-color: darkorange;
+   font-family: cursive;
+   color: aliceblue;
+}
+.fondo{
+    background-image: url(/imagenes/hamburguesa.png);
+}
+#complemento{
+    font-family: cursive;
+    color: white;
+    margin-left: 25%;
+}

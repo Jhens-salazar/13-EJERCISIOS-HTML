@@ -1,0 +1,18 @@
+h1{ /*ACA SE MODIFICA LA ETIQUETA H1 Y ASI DARLE ESTILO*/
+    background-color: blue;
+    color: aliceblue;
+    font-family: cursive;
+    margin: 0%;
+    padding: 1cm;
+}
+.fondo{ /*ESTA CLASE CONTIENE LA IMAGEN DE FONDO*/
+    background-image: url("/imagenes/numeros.png");
+}
+h2{ /*ACA SE MODIFICA LA ETIQUETA H2 Y ASI DARLE ESTILO*/
+    color: aliceblue;
+    font-family: cursive;
+}
+#complemento{
+             margin-left: 35%;
+
+}
